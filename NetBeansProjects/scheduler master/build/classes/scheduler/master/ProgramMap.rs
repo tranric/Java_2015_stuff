@@ -1,0 +1,2 @@
+scheduletest.ProgramMap
+humber.studentgroups.ProgramMap

@@ -1,0 +1,1 @@
+humber.courses.CourseMap

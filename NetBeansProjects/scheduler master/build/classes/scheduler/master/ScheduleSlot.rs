@@ -1,0 +1,1 @@
+humber.schedule.ScheduleSlot

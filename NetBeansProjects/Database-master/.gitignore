@@ -1,0 +1,5 @@
+*.iml
+*.ini
+.dropbox
+bin/
+src/META-INF

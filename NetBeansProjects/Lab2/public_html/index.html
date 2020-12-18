@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lab 2</title>
+</head>
+
+<body>
+<form action="Ordered.php" method="POST">
+<fieldset>
+<legend>Order</legend>
+<b>Order:</b>
+<select name="order">
+<option value="Buffalo Chicken">Buffalo Chicken</option>
+<option value="Chipotle Chicken">Chipotle Chicken</option>
+<option value="Chipotle Steak">Chipotle Steak</option>
+<option value="Chicken Bruschetta">Chicken Bruschetta</option>
+</select>
+<br/>
+<b>Quantity:</b>
+<input type="number" name="Quantity"/>
+</fieldset>
+<fieldset>
+<legend>Address</legend>
+<b>Address:</b>
+<input type="text" name="Address" />
+<br/>
+<b>Postal Code:</b>
+<input type="text" name="Postal Code" />
+<br/>
+<b>City:</b>
+<input type="text" name="City"/>
+</fieldset>
+
+<button type="submit" onclick="Order()">Order</button>
+</form>
+
+<?php
+Class Submit{
+Order();
+User();
+}
+Class Order{
+$pizzaname = $_GET["order"];
+$orderqty= $_GET["Quantity"];
+echo Pizza Type: + $Pizzaname;
+
+}
+Class User{
+$address = $_GET["Address"];
+$postalcode = $_GET["Postal Code"];
+$city = $_GET["City"];
+
+}
+
+>
+</body>
+</html>
